@@ -1,0 +1,11 @@
+
+
+root = true
+
+[*]
+ident_style = space
+ident_size = 2
+end_of_line = lf
+charset = utf-8
+trim_traling_whitespace = false
+insetr_final_newline = false
