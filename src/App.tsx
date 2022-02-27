@@ -1,12 +1,13 @@
+import { Rotas } from "./routes";
+import { Theme } from "./themes";
 
-import './App.css';
-
-function App() {
+export const App = () => {
   return (
     <div className="App">
-      
+      <Theme> 
+          <Rotas/>
+      </Theme>
     </div>
   );
 }
 
-export default App;

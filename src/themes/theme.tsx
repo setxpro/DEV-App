@@ -8,12 +8,15 @@ fontSizes.displayExtraLarge = fontSizes[2]
 const primary = '#2567B4';
 const secondary = '#F9B531';
 
+const background = '#ff0000';
+
 const theme = {
     fontSizes,
     colors: {
         primary,
         secondary
-    }
+    },
+    background
 }
 
 export const Theme: React.FC = ({ children }) => {
